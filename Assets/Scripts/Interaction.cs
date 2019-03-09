@@ -10,11 +10,16 @@ public class Interaction : MonoBehaviour
 
     private void OnMouseDown() {
         Package currentPackage = GameController.instance.currentPackage;
-        if (currentPackage != null) {
-            if(currentPackage.packageID == packageID && GameController.instance.tries < GameController.instance.maxTries) {
-                GameController.instance.UseTry();
-                // do interaction!
-                GameController.instance.GetSoundEffect(soundEffectID).Play();
+        if (currentPackage != null && GameController.instance.tries < GameController.instance.maxTries) {
+            string[] tags = packageID.Split(' ');
+
+            foreach (string currentID in tags)
+            {
+                if(currentPackage.packageID == currentID) {
+                    GameController.instance.UseTry();
+                    // do interaction!
+                    GameController.instance.GetSoundEffect(soundEffectID).Play();
+                }
             }
         }
     }

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6261867094778030326}
   - component: {fileID: 7294241231758002421}
   m_Layer: 0
-  m_Name: placeholderSpeechBubble_0
+  m_Name: SpeechBubble
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 8482186401702620949}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.17, y: -0.56, z: 0}
-  m_LocalScale: {x: 2.5178, y: 2.5178, z: 2.5178}
+  m_LocalScale: {x: 5.5892644, y: 5.5892644, z: 5.5892644}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -68,7 +68,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 100
-  m_Sprite: {fileID: 21300000, guid: 1bec32e297d6127449f6e86abf0fc96e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: aefb7683f4064b84b86ddd4ca04a22b2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
