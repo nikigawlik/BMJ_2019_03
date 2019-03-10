@@ -292,6 +292,33 @@ MonoBehaviour:
   - effectID: lose
     audioClip: {fileID: 8300000, guid: 8cbcf77938dae7643b59bf1d5eea6329, type: 3}
     sprite: {fileID: 21300000, guid: a587cfc4a3ce73a479021253d385dcc6, type: 3}
+  - effectID: gurgle
+    audioClip: {fileID: 8300000, guid: 2cd33d4a7eda83745b732384836546c2, type: 3}
+    sprite: {fileID: 21300000, guid: 892d52545b09bf3408c7d9e8adabfd75, type: 3}
+  - effectID: silence
+    audioClip: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 2cc1f0828c5e98747bb18c8c88af003a, type: 3}
+  - effectID: moo
+    audioClip: {fileID: 8300000, guid: 6b82f07f231aea54a92cd532f8e23463, type: 3}
+    sprite: {fileID: 21300000, guid: 98643a50737fd554785bb18b5b1f0163, type: 3}
+  - effectID: quack
+    audioClip: {fileID: 8300000, guid: 03c18e0ab6ec49242a9a065dd0988d42, type: 3}
+    sprite: {fileID: 21300000, guid: 5690819a28445e347a68609f2f0dcfd8, type: 3}
+  - effectID: slobber
+    audioClip: {fileID: 8300000, guid: aef690f49bd9e5d4493d8293484e8a40, type: 3}
+    sprite: {fileID: 21300000, guid: c14ca195f00bd8742b989b2783c7e26e, type: 3}
+  - effectID: drips
+    audioClip: {fileID: 8300000, guid: df886922c0b383642bf936d30fa63e9b, type: 3}
+    sprite: {fileID: 21300000, guid: 5aeb0fcc2ad2ac94a8b3276a8c3319a8, type: 3}
+  - effectID: tick
+    audioClip: {fileID: 8300000, guid: 57cf718aada764a4ea42851f34805ada, type: 3}
+    sprite: {fileID: 21300000, guid: 810c8521f0c5aa146b936f9469f82a38, type: 3}
+  - effectID: breath
+    audioClip: {fileID: 8300000, guid: b7885d0aa5f5020489bbfe07a23a708e, type: 3}
+    sprite: {fileID: 21300000, guid: 2d767d39851bda14aa848f72c8154c81, type: 3}
+  - effectID: urgh
+    audioClip: {fileID: 8300000, guid: 929fc970f0da0774fbcd1c6bce7f29d9, type: 3}
+    sprite: {fileID: 21300000, guid: f0257dfc41cf61d49948488eff1b7d31, type: 3}
   tries: 0
   maxTries: 3
 --- !u!4 &12493637
@@ -1373,6 +1400,10 @@ GameObject:
   - component: {fileID: 1311440707}
   - component: {fileID: 1311440706}
   - component: {fileID: 1311440705}
+  - component: {fileID: 1311440712}
+  - component: {fileID: 1311440711}
+  - component: {fileID: 1311440710}
+  - component: {fileID: 1311440709}
   m_Layer: 0
   m_Name: Hear
   m_TagString: Untagged
@@ -1406,8 +1437,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d3f871b12852eb4eb6ddbbcd22026c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  packageID: cat
-  soundEffectID: klang
+  packageID: bust rubberduck
+  soundEffectID: silence
   alternativeSoundEffectID: 
 --- !u!61 &1311440706
 BoxCollider2D:
@@ -1564,6 +1595,66 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1311440709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1311440703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3f871b12852eb4eb6ddbbcd22026c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  packageID: cow chick
+  soundEffectID: breath
+  alternativeSoundEffectID: urgh
+--- !u!114 &1311440710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1311440703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3f871b12852eb4eb6ddbbcd22026c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  packageID: milk
+  soundEffectID: gurgle
+  alternativeSoundEffectID: 
+--- !u!114 &1311440711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1311440703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3f871b12852eb4eb6ddbbcd22026c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  packageID: clock bomb
+  soundEffectID: tick
+  alternativeSoundEffectID: silence
+--- !u!114 &1311440712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1311440703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3f871b12852eb4eb6ddbbcd22026c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  packageID: booze
+  soundEffectID: gurgle
+  alternativeSoundEffectID: drop
 --- !u!1 &1360272157
 GameObject:
   m_ObjectHideFlags: 0
@@ -1771,6 +1862,12 @@ GameObject:
   - component: {fileID: 1455077710}
   - component: {fileID: 1455077709}
   - component: {fileID: 1455077708}
+  - component: {fileID: 1455077717}
+  - component: {fileID: 1455077716}
+  - component: {fileID: 1455077715}
+  - component: {fileID: 1455077714}
+  - component: {fileID: 1455077713}
+  - component: {fileID: 1455077712}
   m_Layer: 0
   m_Name: Shake
   m_TagString: Untagged
@@ -1804,9 +1901,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d3f871b12852eb4eb6ddbbcd22026c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  packageID: cat
-  soundEffectID: klang
-  alternativeSoundEffectID: 
+  packageID: bust clock
+  soundEffectID: rumble
+  alternativeSoundEffectID: rattle
 --- !u!61 &1455077709
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1962,6 +2059,96 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1455077712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1455077706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3f871b12852eb4eb6ddbbcd22026c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  packageID: chick
+  soundEffectID: quack
+  alternativeSoundEffectID: slobber
+--- !u!114 &1455077713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1455077706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3f871b12852eb4eb6ddbbcd22026c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  packageID: rubberduck
+  soundEffectID: quack
+  alternativeSoundEffectID: 
+--- !u!114 &1455077714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1455077706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3f871b12852eb4eb6ddbbcd22026c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  packageID: cow
+  soundEffectID: moo
+  alternativeSoundEffectID: slobber
+--- !u!114 &1455077715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1455077706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3f871b12852eb4eb6ddbbcd22026c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  packageID: milk
+  soundEffectID: moo
+  alternativeSoundEffectID: moo
+--- !u!114 &1455077716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1455077706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3f871b12852eb4eb6ddbbcd22026c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  packageID: bomb
+  soundEffectID: rumble
+  alternativeSoundEffectID: silence
+--- !u!114 &1455077717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1455077706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3f871b12852eb4eb6ddbbcd22026c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  packageID: booze
+  soundEffectID: gurgle
+  alternativeSoundEffectID: rattle drips
 --- !u!1 &1472013027
 GameObject:
   m_ObjectHideFlags: 0
@@ -2088,7 +2275,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   allPackageIDs: bust booze clock bomb milk cow rubberduck chick
-  packageID: bomb
+  packageID: booze
   hasBeenHit: 0
 --- !u!61 &1746032236
 BoxCollider2D:

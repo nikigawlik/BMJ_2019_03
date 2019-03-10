@@ -25,13 +25,23 @@ public class Interaction : MonoBehaviour
                     // do interaction!
                     if(alternativeSoundEffectID != "" && GameController.instance.currentPackage.hasBeenHit) {
                         //play alternative sound effect when it's defined and the package is broken
-                        GameController.instance.GetSoundEffect(alternativeSoundEffectID).Play();
-                    } else {
+                        PlaySoundEffects(alternativeSoundEffectID);
+                    } else
+                    {
                         // play normal sound effect
-                        GameController.instance.GetSoundEffect(soundEffectID).Play();
+                        PlaySoundEffects(soundEffectID);
                     }
                 }
             }
+        }
+    }
+
+    private void PlaySoundEffects(string sfxID)
+    {
+        string[] ids = sfxID.Split(' ');
+        foreach (string id in ids)
+        {
+            GameController.instance.GetSoundEffect(id).Play();
         }
     }
 }

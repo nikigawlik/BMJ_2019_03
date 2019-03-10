@@ -27,6 +27,15 @@ public class SoundEffect {
 
     private IEnumerator MakeAndDeleteBubble() {
         GameObject obj = GameObject.Instantiate(GameController.instance.bubblePrefab);
+        Package currentPackage = GameController.instance.currentPackage;
+        if(currentPackage != null) {
+            // move to a random position around the package
+            obj.transform.position = 
+                currentPackage.transform.position 
+                + Quaternion.Euler(0, 0, Random.Range(0f, 360f)) * Vector3.right * Random.Range(0, 3f);
+            // rotate randomly
+            obj.transform.rotation = Quaternion.Euler(0, 0, Random.Range(-15f, 15f));
+        }
         SpriteRenderer sr = obj.GetComponent<SpriteRenderer>();
         sr.sprite = sprite;
 
