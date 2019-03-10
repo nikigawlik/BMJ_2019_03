@@ -7,6 +7,7 @@ public class Interaction : MonoBehaviour
     public string packageID;
 
     public string soundEffectID;
+    public string alternativeSoundEffectID;
 
     private void OnMouseDown() {
         Package currentPackage = GameController.instance.currentPackage;
@@ -17,8 +18,18 @@ public class Interaction : MonoBehaviour
             {
                 if(currentPackage.packageID == currentID) {
                     GameController.instance.UseTry();
+                    //hammer hack
+                    if(gameObject.name == "Hammer") {
+                        GameController.instance.currentPackage.hasBeenHit = true;
+                    }
                     // do interaction!
-                    GameController.instance.GetSoundEffect(soundEffectID).Play();
+                    if(alternativeSoundEffectID != "" && GameController.instance.currentPackage.hasBeenHit) {
+                        //play alternative sound effect when it's defined and the package is broken
+                        GameController.instance.GetSoundEffect(alternativeSoundEffectID).Play();
+                    } else {
+                        // play normal sound effect
+                        GameController.instance.GetSoundEffect(soundEffectID).Play();
+                    }
                 }
             }
         }

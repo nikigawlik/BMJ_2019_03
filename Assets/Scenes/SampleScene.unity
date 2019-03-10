@@ -247,42 +247,51 @@ MonoBehaviour:
   checkboxWidth: 1
   mainAudioSource: {fileID: 12493635}
   soundEffects:
+  - effectID: default
+    audioClip: {fileID: 8300000, guid: 0047e0e8c655f5a4bbe2ee956a45ff0e, type: 3}
+    sprite: {fileID: 21300000, guid: 01e4936252b775a4eb4fc94f165bbb98, type: 3}
   - effectID: boom
-    audioClip: {fileID: 8300000, guid: af1971be5df882f42bcc1a48cabac5d4, type: 3}
+    audioClip: {fileID: 8300000, guid: 0047e0e8c655f5a4bbe2ee956a45ff0e, type: 3}
     sprite: {fileID: 21300000, guid: 63d2bdab01a4cf143b44599784b23d08, type: 3}
   - effectID: burst
-    audioClip: {fileID: 8300000, guid: 545bc68431e0abe40a5b9bb93eab0df3, type: 3}
+    audioClip: {fileID: 8300000, guid: dc356cca7bf4dbc47a72923e4dba3f40, type: 3}
     sprite: {fileID: 21300000, guid: df293430c67b3814296968016e9c543a, type: 3}
   - effectID: quiek
-    audioClip: {fileID: 8300000, guid: 545bc68431e0abe40a5b9bb93eab0df3, type: 3}
+    audioClip: {fileID: 8300000, guid: c0ae81cdd48ba9c4d8db9db44b3b5ef6, type: 3}
     sprite: {fileID: 21300000, guid: 61ceab646c882004d9c1f9879c962c01, type: 3}
   - effectID: rattle
-    audioClip: {fileID: 8300000, guid: 545bc68431e0abe40a5b9bb93eab0df3, type: 3}
+    audioClip: {fileID: 8300000, guid: 51545147765584d4d8222f08a5f9091c, type: 3}
     sprite: {fileID: 21300000, guid: 60e83883509426d4b90dbecff88ea352, type: 3}
   - effectID: rumble
-    audioClip: {fileID: 8300000, guid: 545bc68431e0abe40a5b9bb93eab0df3, type: 3}
+    audioClip: {fileID: 8300000, guid: f817809c775e4824bb3dedd5be35ff23, type: 3}
     sprite: {fileID: 21300000, guid: f0bb416a8f022994abbe85c2832b4205, type: 3}
   - effectID: sludge
-    audioClip: {fileID: 8300000, guid: 545bc68431e0abe40a5b9bb93eab0df3, type: 3}
+    audioClip: {fileID: 8300000, guid: 5a0d56de2003be44fa1ab35e9fb098ab, type: 3}
     sprite: {fileID: 21300000, guid: 3064f4aab01ba0c45a4b2b46e0cd4a66, type: 3}
   - effectID: thud
-    audioClip: {fileID: 8300000, guid: 545bc68431e0abe40a5b9bb93eab0df3, type: 3}
+    audioClip: {fileID: 8300000, guid: 293203c03273c0b4680f31a1d0c8c918, type: 3}
     sprite: {fileID: 21300000, guid: aefb7683f4064b84b86ddd4ca04a22b2, type: 3}
   - effectID: mag
-    audioClip: {fileID: 8300000, guid: 545bc68431e0abe40a5b9bb93eab0df3, type: 3}
-    sprite: {fileID: 21300000, guid: aefb7683f4064b84b86ddd4ca04a22b2, type: 3}
+    audioClip: {fileID: 8300000, guid: 502b7a2f167d0eb4a8e042fc61b0e71c, type: 3}
+    sprite: {fileID: 21300000, guid: b680e69588e031542b7467d540915366, type: 3}
   - effectID: nonmag
-    audioClip: {fileID: 8300000, guid: 545bc68431e0abe40a5b9bb93eab0df3, type: 3}
-    sprite: {fileID: 21300000, guid: 1bec32e297d6127449f6e86abf0fc96e, type: 3}
+    audioClip: {fileID: 8300000, guid: 502b7a2f167d0eb4a8e042fc61b0e71c, type: 3}
+    sprite: {fileID: 21300000, guid: 4a2c4adbc32a5f440ad985933cd4cc56, type: 3}
   - effectID: light
-    audioClip: {fileID: 8300000, guid: 545bc68431e0abe40a5b9bb93eab0df3, type: 3}
-    sprite: {fileID: 21300000, guid: 1bec32e297d6127449f6e86abf0fc96e, type: 3}
+    audioClip: {fileID: 8300000, guid: b199638700cbe9c47afe74d26da0d804, type: 3}
+    sprite: {fileID: 21300000, guid: 9c3c63b02d9a0a646a04e23990efd661, type: 3}
   - effectID: middle
-    audioClip: {fileID: 8300000, guid: 545bc68431e0abe40a5b9bb93eab0df3, type: 3}
-    sprite: {fileID: 21300000, guid: 1bec32e297d6127449f6e86abf0fc96e, type: 3}
+    audioClip: {fileID: 8300000, guid: b199638700cbe9c47afe74d26da0d804, type: 3}
+    sprite: {fileID: 21300000, guid: 393adbb43a0c1fd4b95d8453d424c7b6, type: 3}
   - effectID: heavy
-    audioClip: {fileID: 8300000, guid: 545bc68431e0abe40a5b9bb93eab0df3, type: 3}
-    sprite: {fileID: 21300000, guid: 1bec32e297d6127449f6e86abf0fc96e, type: 3}
+    audioClip: {fileID: 8300000, guid: b199638700cbe9c47afe74d26da0d804, type: 3}
+    sprite: {fileID: 21300000, guid: 158039ae740d0cf43ac6e22cf09b2917, type: 3}
+  - effectID: win
+    audioClip: {fileID: 8300000, guid: 04a7d42e6bef8194599e1ca740432aa8, type: 3}
+    sprite: {fileID: 21300000, guid: f7f02dda65430e041bfc37d36b43240f, type: 3}
+  - effectID: lose
+    audioClip: {fileID: 8300000, guid: 8cbcf77938dae7643b59bf1d5eea6329, type: 3}
+    sprite: {fileID: 21300000, guid: a587cfc4a3ce73a479021253d385dcc6, type: 3}
   tries: 0
   maxTries: 3
 --- !u!4 &12493637
@@ -329,8 +338,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 172719789}
   m_LocalRotation: {x: -0, y: -0, z: -0.0001627393, w: 1}
-  m_LocalPosition: {x: -0.1, y: -2.96, z: -0.05468755}
-  m_LocalScale: {x: 2.2003167, y: 1.2255051, z: 1.556}
+  m_LocalPosition: {x: 0.06, y: -3.24, z: -0.05468755}
+  m_LocalScale: {x: 2.84271, y: 2.84271, z: 2.84271}
   m_Children: []
   m_Father: {fileID: 1250794224}
   m_RootOrder: 1
@@ -349,6 +358,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   packageID: booze milk rubberduck chick
   soundEffectID: light
+  alternativeSoundEffectID: 
 --- !u!61 &172719792
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -366,14 +376,14 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.56, y: 2.56}
+    oldSize: {x: 2, y: 2}
     newSize: {x: 2.56, y: 2.56}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.56, y: 2.56}
+  m_Size: {x: 2.11, y: 1.15}
   m_EdgeRadius: 0
 --- !u!114 &172719793
 MonoBehaviour:
@@ -493,7 +503,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 55000ef267289414bb912bccbaa8ef37, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7db0d81f43838e64a89be6bf6f261415, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -518,6 +528,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   packageID: clock cow
   soundEffectID: heavy
+  alternativeSoundEffectID: 
 --- !u!114 &172719796
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -531,7 +542,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   packageID: bust bomb
-  soundEffectID: medium
+  soundEffectID: middle
+  alternativeSoundEffectID: 
 --- !u!1 &382827345
 GameObject:
   m_ObjectHideFlags: 0
@@ -556,7 +568,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 382827345}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.10739867, y: 0.046765864, z: 0.05468755}
+  m_LocalPosition: {x: 0.10739867, y: 0.23, z: 0.05468755}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 407446114}
@@ -707,13 +719,13 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 3cbc4d6053ebf824a9b83eaca0e0db04, type: 3}
+  m_SortingOrder: 50
+  m_Sprite: {fileID: 21300000, guid: f8b3fe7de67f50e4ea1a967448e37c03, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.64, y: 0.64}
+  m_Size: {x: 2, y: 2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -727,7 +739,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 407446111}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.58, y: -2.4, z: -0.05468755}
+  m_LocalPosition: {x: -9.41, y: -1.57, z: -0.05468755}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 382827346}
@@ -761,6 +773,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7ff071b5ecff014b81df095b3f3bf09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  winClip: {fileID: 8300000, guid: 04a7d42e6bef8194599e1ca740432aa8, type: 3}
+  loseClip: {fileID: 8300000, guid: 8cbcf77938dae7643b59bf1d5eea6329, type: 3}
   packageID: bust
 --- !u!1 &519420028
 GameObject:
@@ -844,6 +858,85 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &724904386
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 724904388}
+  - component: {fileID: 724904387}
+  m_Layer: 0
+  m_Name: whiteRect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &724904387
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 724904386}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 51f0024570cce3d449a9c263d9faede3, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.27450982}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.32, y: 0.32}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &724904388
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 724904386}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.93, y: -3.96, z: 0}
+  m_LocalScale: {x: 33.89441, y: 25.106968, z: 25.106968}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1001153358
 GameObject:
   m_ObjectHideFlags: 0
@@ -872,7 +965,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1001153358}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.45, y: -2.4, z: -0.05468755}
+  m_LocalPosition: {x: -6.2799997, y: -1.5699999, z: -0.05468755}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 382827346}
@@ -890,6 +983,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7ff071b5ecff014b81df095b3f3bf09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  winClip: {fileID: 8300000, guid: 04a7d42e6bef8194599e1ca740432aa8, type: 3}
+  loseClip: {fileID: 8300000, guid: 8cbcf77938dae7643b59bf1d5eea6329, type: 3}
   packageID: clock
 --- !u!58 &1001153361
 CircleCollider2D:
@@ -1024,8 +1119,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 3cbc4d6053ebf824a9b83eaca0e0db04, type: 3}
+  m_SortingOrder: 50
+  m_Sprite: {fileID: 21300000, guid: cbf877f07c007b041bb6d4d6f5ba82f5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1082,6 +1177,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7ff071b5ecff014b81df095b3f3bf09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  winClip: {fileID: 8300000, guid: 04a7d42e6bef8194599e1ca740432aa8, type: 3}
+  loseClip: {fileID: 8300000, guid: 8cbcf77938dae7643b59bf1d5eea6329, type: 3}
   packageID: rubberduck
 --- !u!58 &1233420696
 CircleCollider2D:
@@ -1216,13 +1313,13 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 3cbc4d6053ebf824a9b83eaca0e0db04, type: 3}
+  m_SortingOrder: 50
+  m_Sprite: {fileID: 21300000, guid: 030f0056fb33640418d7d4d396f66537, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.64, y: 0.64}
+  m_Size: {x: 2, y: 2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1290,13 +1387,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1311440703}
-  m_LocalRotation: {x: -0, y: -0, z: -0.16468124, w: 0.98634684}
-  m_LocalPosition: {x: 7.43, y: 3.37, z: -0.05468755}
-  m_LocalScale: {x: 0.96448666, y: 0.96448666, z: 0.96448654}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.58, y: 2.52, z: -0.05468755}
+  m_LocalScale: {x: 1.7320251, y: 1.7320251, z: 1.7320249}
   m_Children: []
   m_Father: {fileID: 1250794224}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -18.957}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1311440705
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1311,6 +1408,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   packageID: cat
   soundEffectID: klang
+  alternativeSoundEffectID: 
 --- !u!61 &1311440706
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1328,14 +1426,14 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.56, y: 2.56}
+    oldSize: {x: 2, y: 2}
     newSize: {x: 2.56, y: 2.56}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.56, y: 2.56}
+  m_Size: {x: 1.69, y: 2.02}
   m_EdgeRadius: 0
 --- !u!114 &1311440707
 MonoBehaviour:
@@ -1455,7 +1553,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8a3b086ae3b1e214bb93976ad10f4558, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 46d419d04c9387a488ea71d42c0107de, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1512,6 +1610,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7ff071b5ecff014b81df095b3f3bf09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  winClip: {fileID: 8300000, guid: 04a7d42e6bef8194599e1ca740432aa8, type: 3}
+  loseClip: {fileID: 8300000, guid: 8cbcf77938dae7643b59bf1d5eea6329, type: 3}
   packageID: milk
 --- !u!58 &1360272160
 CircleCollider2D:
@@ -1646,8 +1746,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 3cbc4d6053ebf824a9b83eaca0e0db04, type: 3}
+  m_SortingOrder: 50
+  m_Sprite: {fileID: 21300000, guid: c0510a74a3c3dd346a4b01e554006793, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1685,13 +1785,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1455077706}
-  m_LocalRotation: {x: -0, y: -0, z: 0.14456752, w: 0.989495}
-  m_LocalPosition: {x: -7.41, y: 2.87, z: -0.05468755}
-  m_LocalScale: {x: 1.0918764, y: 1.0918764, z: 1.0918763}
+  m_LocalRotation: {x: -0, y: -0, z: -0.6181757, w: 0.78604}
+  m_LocalPosition: {x: 8.93, y: 0.27, z: -0.05468755}
+  m_LocalScale: {x: 1.5679345, y: 1.5679345, z: 1.5679343}
   m_Children: []
   m_Father: {fileID: 1250794224}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 16.624}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -76.366005}
 --- !u!114 &1455077708
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1706,6 +1806,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   packageID: cat
   soundEffectID: klang
+  alternativeSoundEffectID: 
 --- !u!61 &1455077709
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1723,7 +1824,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.56, y: 2.56}
+    oldSize: {x: 2, y: 2}
     newSize: {x: 2.56, y: 2.56}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1850,7 +1951,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8a3b086ae3b1e214bb93976ad10f4558, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d3d50f8fcaf51464cba4171704c93259, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1885,7 +1986,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1472013027}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.93, y: -0.35, z: 0.009374999}
+  m_LocalPosition: {x: -9, y: 0.73, z: 0.009374999}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1949,7 +2050,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 1b71adbb331d0cc43aef1e9f41525213, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1eeda50789081a141a39d34eb4376e94, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1968,8 +2069,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1746032232}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.03, y: -0.12, z: 0}
-  m_LocalScale: {x: 2.953, y: 2.953, z: 2.953}
+  m_LocalPosition: {x: -0.01, y: 1.73, z: 0}
+  m_LocalScale: {x: 3.8281462, y: 3.8281462, z: 3.8281462}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -1986,7 +2087,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4410c08377028474d95175bd3b2cee22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  allPackageIDs: bust booze clock bomb milk cow rubberduck chick
   packageID: bomb
+  hasBeenHit: 0
 --- !u!61 &1746032236
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2004,7 +2107,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.56, y: 2.56}
+    oldSize: {x: 2, y: 2}
     newSize: {x: 2.56, y: 2.56}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2159,6 +2262,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7ff071b5ecff014b81df095b3f3bf09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  winClip: {fileID: 8300000, guid: 04a7d42e6bef8194599e1ca740432aa8, type: 3}
+  loseClip: {fileID: 8300000, guid: 8cbcf77938dae7643b59bf1d5eea6329, type: 3}
   packageID: cow
 --- !u!58 &1777531321
 CircleCollider2D:
@@ -2293,8 +2398,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 3cbc4d6053ebf824a9b83eaca0e0db04, type: 3}
+  m_SortingOrder: 50
+  m_Sprite: {fileID: 21300000, guid: 5a05249ffe25255458a106a9c8826f71, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2305,6 +2410,85 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1808965688
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1808965690}
+  - component: {fileID: 1808965689}
+  m_Layer: 0
+  m_Name: Background_Plain01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &1808965689
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1808965688}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: -1000
+  m_Sprite: {fileID: 21300000, guid: 516cdc815bc321847a1b478b2cea1c6a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 38.399998, y: 21.599998}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1808965690
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1808965688}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.8843, y: 0.8843, z: 0.8843}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1816864727
 GameObject:
   m_ObjectHideFlags: 0
@@ -2442,8 +2626,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300002, guid: 3cbc4d6053ebf824a9b83eaca0e0db04, type: 3}
+  m_SortingOrder: 50
+  m_Sprite: {fileID: 21300000, guid: 3d0a61dc73f758e4b94267023ba38a29, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2462,7 +2646,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1816864727}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.09, y: -2.4, z: -0.05468755}
+  m_LocalPosition: {x: -7.92, y: -1.5699999, z: -0.05468755}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 382827346}
@@ -2496,6 +2680,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7ff071b5ecff014b81df095b3f3bf09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  winClip: {fileID: 8300000, guid: 04a7d42e6bef8194599e1ca740432aa8, type: 3}
+  loseClip: {fileID: 8300000, guid: 8cbcf77938dae7643b59bf1d5eea6329, type: 3}
   packageID: booze
 --- !u!1 &1820713385
 GameObject:
@@ -2525,13 +2711,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1820713385}
-  m_LocalRotation: {x: -0, y: -0, z: -0.0028719688, w: 0.9999959}
-  m_LocalPosition: {x: -0.27, y: 4.89, z: -0.05468755}
-  m_LocalScale: {x: 1.5559998, y: 1.5559998, z: 1.556}
+  m_LocalRotation: {x: -0, y: -0, z: 0.4941114, w: 0.8693986}
+  m_LocalPosition: {x: -6.7, y: 3.06, z: -0.05468755}
+  m_LocalScale: {x: 1.8639323, y: 1.8639323, z: 1.8639325}
   m_Children: []
   m_Father: {fileID: 1250794224}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.32900003}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 59.222004}
 --- !u!61 &1820713387
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2549,14 +2735,14 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.56, y: 2.56}
+    oldSize: {x: 2, y: 2}
     newSize: {x: 2.56, y: 2.56}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.56, y: 2.56}
+  m_Size: {x: 2.56, y: 1.52}
   m_EdgeRadius: 0
 --- !u!114 &1820713388
 MonoBehaviour:
@@ -2676,7 +2862,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8a3b086ae3b1e214bb93976ad10f4558, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 02918239527452d46a72d01ba43c7b45, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2701,6 +2887,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   packageID: clock bomb
   soundEffectID: mag
+  alternativeSoundEffectID: 
 --- !u!114 &1820713391
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2715,6 +2902,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   packageID: bust booze milk cow rubberduck chick
   soundEffectID: nonmag
+  alternativeSoundEffectID: 
 --- !u!1 &2051794412
 GameObject:
   m_ObjectHideFlags: 0
@@ -2761,6 +2949,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7ff071b5ecff014b81df095b3f3bf09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  winClip: {fileID: 8300000, guid: 04a7d42e6bef8194599e1ca740432aa8, type: 3}
+  loseClip: {fileID: 8300000, guid: 8cbcf77938dae7643b59bf1d5eea6329, type: 3}
   packageID: chick
 --- !u!58 &2051794415
 CircleCollider2D:
@@ -2895,8 +3085,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 3cbc4d6053ebf824a9b83eaca0e0db04, type: 3}
+  m_SortingOrder: 50
+  m_Sprite: {fileID: 21300000, guid: 0df22bf7b3f316648b1cac8b322c5c78, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2935,7 +3125,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2075694975}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.9, y: -2.4, z: -0.05468755}
+  m_LocalPosition: {x: -4.73, y: -1.5699999, z: -0.05468755}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 382827346}
@@ -2953,6 +3143,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7ff071b5ecff014b81df095b3f3bf09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  winClip: {fileID: 8300000, guid: 04a7d42e6bef8194599e1ca740432aa8, type: 3}
+  loseClip: {fileID: 8300000, guid: 8cbcf77938dae7643b59bf1d5eea6329, type: 3}
   packageID: bomb
 --- !u!58 &2075694978
 CircleCollider2D:
@@ -3087,8 +3279,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 3cbc4d6053ebf824a9b83eaca0e0db04, type: 3}
+  m_SortingOrder: 50
+  m_Sprite: {fileID: 21300000, guid: e8ea95ce33622b4409702c9e70fecfec, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3160,12 +3352,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8a3b086ae3b1e214bb93976ad10f4558, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c1e486feb5ce57948b2b1d40e25915de, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 2.56, y: 2.56}
+  m_Size: {x: 2, y: 2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -3179,8 +3371,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2081853618}
   m_LocalRotation: {x: -0, y: -0, z: -0.2580499, w: 0.96613157}
-  m_LocalPosition: {x: 6.9226017, y: -2.4, z: -0.05468755}
-  m_LocalScale: {x: 1.5560001, y: 1.5560001, z: 1.556}
+  m_LocalPosition: {x: 5.77, y: -2.16, z: -0.05468755}
+  m_LocalScale: {x: 3.4345589, y: 3.4345589, z: 3.4345586}
   m_Children: []
   m_Father: {fileID: 1250794224}
   m_RootOrder: 2
@@ -3283,14 +3475,14 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.56, y: 2.56}
-    newSize: {x: 2.56, y: 2.56}
+    oldSize: {x: 2, y: 2}
+    newSize: {x: 2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.56, y: 2.56}
+  m_Size: {x: 1.69, y: 1.19}
   m_EdgeRadius: 0
 --- !u!114 &2081853623
 MonoBehaviour:
@@ -3304,8 +3496,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d3f871b12852eb4eb6ddbbcd22026c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  packageID: cat
+  packageID: bust booze clock
   soundEffectID: burst
+  alternativeSoundEffectID: 
 --- !u!114 &2081853624
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3320,6 +3513,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   packageID: rubberduck
   soundEffectID: quiek
+  alternativeSoundEffectID: 
 --- !u!114 &2081853625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3334,6 +3528,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   packageID: cow chick
   soundEffectID: sludge
+  alternativeSoundEffectID: 
 --- !u!114 &2081853626
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3348,6 +3543,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   packageID: milk
   soundEffectID: thud
+  alternativeSoundEffectID: 
 --- !u!114 &2081853627
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3360,5 +3556,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d3f871b12852eb4eb6ddbbcd22026c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  packageID: bust booze clock
+  packageID: bomb
   soundEffectID: boom
+  alternativeSoundEffectID: 

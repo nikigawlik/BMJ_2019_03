@@ -50,7 +50,7 @@ public class GameController : MonoBehaviour
         SetTries(tries + 1);
         if(tries == maxTries) {
             // SetTries(0);
-            currentPackage.GetComponent<Animator>().SetTrigger("NewPackage");
+            // currentPackage.GetComponent<Animator>().SetTrigger("NewPackage");
         }
     }
 

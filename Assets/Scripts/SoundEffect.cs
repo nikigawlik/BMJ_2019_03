@@ -17,6 +17,12 @@ public class SoundEffect {
     public void Play() {
         GameController.instance.mainAudioSource.PlayOneShot(audioClip);
         GameController.instance.StartCoroutine(MakeAndDeleteBubble());
+        //special cases
+        if(effectID == "boom") {
+            Package currentPackage = GameController.instance.currentPackage;
+            currentPackage.GetComponent<SpriteRenderer>().enabled = false;
+            currentPackage.GetComponent<Animator>().SetTrigger("WrongPackage");
+        }
     }
 
     private IEnumerator MakeAndDeleteBubble() {
